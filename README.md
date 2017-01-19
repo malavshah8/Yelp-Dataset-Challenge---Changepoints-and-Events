@@ -8,3 +8,5 @@ What I did?
 2. Created buckets from the datasets and performed T-Test and Fisher Test to detect the changepoints in restaurant’s rating and reviews.
 
 Keep all the downloaded json files and python file in one folder before running the project.
+
+Link to download the Yelp Datasets : https://www.yelp.com/dataset_challenge
