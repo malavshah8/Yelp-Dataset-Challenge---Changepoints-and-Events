@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Spyder Editor
-@pspandya
-This is a temporary script file.
+@malavshah8
 """
 
 #with open('D:\Python-Working-Directory\Project\yelp_academic_dataset_business.json') as data_file:    
@@ -51,7 +50,7 @@ def businessid():                       #procedure for data fetching and parsing
                 if data['review_count'] > 300:          #Only those restaurants are considered which has review count greater then 300 so that we can work on lager raw dataset
                     if data['open'] == True:            #We saw that yelp dataset's businesses have attribute:open indicting current status of business; so we're considering only currently open restaurants 
                         bidDataFB[data['business_id']] = data['name']
-        print 'PARTH PANDYA'
+        print 'Malav Shah'
 
 #?    
 def tip():
